@@ -10,21 +10,54 @@ body {
     font: normal 20pt 'Times News Roman';
     text-align: center;
 }
+header {
+    margin-bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+}
 section {
-    background: rgba(0, 0, 0, 0.50);
+    background: rgba(0, 0, 0, 0.40);
     width: 500px;
     padding: 50px;
     color: #ffffff;
     margin: auto;
-    border-radius: 0px 0px 25px 0px;
+    border-radius: 30px 0px 30px 0px;
     text-align: left;
-    
 }
 footer {
     color: white;
     text-align: center;
     font-style: normal;
     font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
     text-shadow: 0.1em 0.1em 0.05em rgba(0, 0, 0, 0%);
-    margin-top: 0%;
+    margin-top: 5%;
+
+}
+#txtt {
+    width: 110px;
+    margin-top: 10px;
+}
+#txtn {
+    margin-left: 5px;
+}
+#number {
+    flex-direction: row;
+    letter-spacing: 4px;
+    font-size: 9.7pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#botao {
+    padding: 1px 10px 1px 10px;
+    font-size: 10pt;
+    color: white;
+    background: black;
+    border-radius: 5px;
+    flex-direction: row;
+    margin-left: 8px;
+    border: solid black;
+}
+#botao:hover {
+    background: linear-gradient(to left, #36002f, #04353a);
+    border: solid #04353a;;
 }

@@ -7,9 +7,11 @@ function gerador() {
     } else {
         let n = Number(number.value); //Convertendo o numero digitado p/ numero
         let count = 1
+        tabuada.innerHTML = '';
         while (count <= 10) {
             let item = document.createElement('option'); //Mesma coisa de criar dentro do html
             item.text = `${n} x ${count} = ${n * count}`;
+            item.value = `tabuada${count}`
             tabuada.appendChild(item);
             count ++
         }
